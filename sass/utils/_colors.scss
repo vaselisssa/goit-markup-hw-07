@@ -1,0 +1,26 @@
+/* $primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #2196f3;
+$light-auxiliary-color: #ffffff;
+$dark-auxiliary-color: #000000;
+$light-background-color: #f5f4fa;
+$dark-background-color: #2f303a;
+$icons-color: #afb1b8; 
+getColor("accent");
+*/
+
+$colors: (
+   "primary-text": #757575,
+   "title": #212121,
+   "accent": #2196f3,
+   "secondary-light": #ffffff,
+   "secondary-dark": #000000,
+   "background": #f5f4fa,
+   "footer": #2f303a,
+   "icons": #afb1b8,
+   "state": #188ce8,
+);
+
+@function getColor($key) {
+   @return map-get($colors, $key);
+}

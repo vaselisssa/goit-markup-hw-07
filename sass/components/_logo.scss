@@ -1,0 +1,15 @@
+.logo {
+   color: getColor("secondary-dark");
+   font-family: "Raleway";
+   @include font(26px, 1.19, 700, 0.03em);
+
+   span {
+      color: getColor("accent");
+   }
+
+   .footer & {
+      display: block;
+      margin-bottom: 20px;
+      color: getColor("secondary-light");
+   }
+}
