@@ -1,5 +1,4 @@
 .logo {
-   color: getColor("secondary-dark");
    font-family: "Raleway";
    @include font(26px, 1.19, 700, 0.03em);
 
@@ -10,6 +9,13 @@
    .footer & {
       display: block;
       margin-bottom: 20px;
+   }
+
+   &.logo--dark {
+      color: getColor("secondary-dark");
+   }
+
+   &.logo--light {
       color: getColor("secondary-light");
    }
 }

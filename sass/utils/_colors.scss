@@ -6,7 +6,7 @@ $dark-auxiliary-color: #000000;
 $light-background-color: #f5f4fa;
 $dark-background-color: #2f303a;
 $icons-color: #afb1b8; 
-getColor("accent");
+getColor("primary-text");
 */
 
 $colors: (
@@ -15,8 +15,8 @@ $colors: (
    "accent": #2196f3,
    "secondary-light": #ffffff,
    "secondary-dark": #000000,
-   "background": #f5f4fa,
-   "footer": #2f303a,
+   "background-light": #f5f4fa,
+   "background-dark": #2f303a,
    "icons": #afb1b8,
    "state": #188ce8,
 );

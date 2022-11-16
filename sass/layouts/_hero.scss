@@ -6,7 +6,7 @@
    margin-left: auto;
    margin-right: auto;
 
-   background-color: var(--dark-background-color);
+   background-color: getColor("background-dark");
    background-image: linear-gradient(
          rgba(47, 48, 58, 0.4),
          rgba(47, 48, 58, 0.4)
@@ -16,22 +16,19 @@
    background-position: center;
    background-size: cover;
    text-align: center;
-}
 
-.hero__title {
-   margin-bottom: 30px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 696px;
+   &__title {
+      margin-bottom: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 696px;
 
-   color: var(--light-auxiliary-color);
-   font-weight: 900;
-   font-size: 44px;
-   line-height: 1.36;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;
-}
+      color: getColor("secondary-light");
+      @include font(44px, 1.36, 900, 0.06em);
+      text-transform: uppercase;
+   }
 
-.hero__button {
-   padding: 10px 32px;
+   &__button {
+      padding: 10px 32px;
+   }
 }

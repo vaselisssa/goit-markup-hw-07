@@ -2,7 +2,7 @@
    color: getColor("title");
 }
 
-.section-title {
+.section__title {
    margin-bottom: 50px;
    @include font(36px, 1.17, 700, 0.06em);
    text-align: center;
