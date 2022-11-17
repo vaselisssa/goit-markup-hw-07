@@ -1,11 +1,13 @@
 @import "./utils/vars";
 @import "./utils/colors";
-@import "./base/reset";
 @import "./utils/placeholders";
 @import "./utils/mixins";
-@import "./base/common";
 @import "./utils/hidden";
 
+@import "./base/reset";
+@import "./base/common";
+
+@import "./components/section";
 @import "./components/container";
 @import "./components/title";
 @import "./components/logo";
